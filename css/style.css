@@ -1,0 +1,44 @@
+body
+{
+    background-color: #faf3e0;
+    margin: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1
+{
+    color:#1e212d;
+    text-align: center;
+    
+}
+
+img
+{
+    width:250px;
+    display: block;
+    margin: auto;
+}
+
+p
+{
+    font-size: 25px;
+}
+
+header p
+{
+    color: #061535;
+    line-height: 1.5;
+}
+
+
+main p:nth-child(odd)
+{
+    color: dimgrey;
+    margin: 15px;
+} 
+
+main p:nth-child(even)
+{
+    color: #383e56;
+    margin: 15px;
+}
