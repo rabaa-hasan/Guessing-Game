@@ -29,16 +29,36 @@ header p
     color: #061535;
     line-height: 1.5;
 }
+ul
+{
+    color: #061535;
+    font-size: 20px;
+
+}
 
 
 main p:nth-child(odd)
 {
     color: dimgrey;
+    background-color: #383e56;
     margin: 15px;
 } 
 
 main p:nth-child(even)
 {
     color: #383e56;
+    background-color:dimgrey ;
     margin: 15px;
+}
+h2
+{
+    color:#1e212d;
+}
+
+ol
+{
+   list-style-type: upper-alpha;
+   color: #061535;
+   font-size: 20px;
+   
 }
