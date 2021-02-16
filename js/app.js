@@ -2,12 +2,12 @@
 
 let userName = prompt('what is your name?');
 alert('Hello! '+ userName);
-console.log(userName);
+//console.log(userName);
 
 
 let asac = prompt('Am I Studying at (ASAC)?');
 asac=asac.toLowerCase();
-console.log(asac.toLowerCase());
+//console.log(asac.toLowerCase());
 
 if (asac === 'y' || asac === 'ye' || asac === 'yes') {
   alert('This is right I am Studying in Asac');
@@ -18,7 +18,7 @@ if (asac === 'y' || asac === 'ye' || asac === 'yes') {
 
 let progrogramming = prompt('Do I love Programming?');
 progrogramming=progrogramming.toLowerCase();
-console.log(progrogramming.toLowerCase());
+//console.log(progrogramming.toLowerCase());
 
 if (progrogramming === 'y' || progrogramming === 'ye' || progrogramming === 'yes') {
   alert('This is right I Love Programming');
@@ -28,7 +28,7 @@ if (progrogramming === 'y' || progrogramming === 'ye' || progrogramming === 'yes
 
 let major = prompt('Does Information Security & Networks my major at college?');
 major=major.toLowerCase();
-console.log(major);
+//console.log(major);
 
 if (major === 'y' || major === 'ye' || major === 'yes') {
   alert('This is right my major in College Was IS&N ');
@@ -38,7 +38,7 @@ if (major === 'y' || major === 'ye' || major === 'yes') {
 
 let season = prompt('Does winter my favourite season?');
 season=season.toLowerCase();
-console.log(season);
+//console.log(season);
 
 if (season === 'y' || season === 'ye' || season === 'yes') {
   alert('Right Winter is my Fav Season :)');
@@ -48,7 +48,7 @@ if (season === 'y' || season === 'ye' || season === 'yes') {
 
 let parrot = prompt(' Do I have a parrot?');
 parrot=parrot.toLowerCase();
-console.log(parrot);
+//console.log(parrot);
 
 if (parrot === 'y' || parrot === 'ye' || parrot === 'yes') {
   alert('This is right I have one :D ');
