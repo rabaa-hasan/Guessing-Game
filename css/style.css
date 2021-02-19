@@ -1,27 +1,39 @@
 body
 {
-    background-color: #faf3e0;
-    margin: 25px;
+    background-color: #bbbfca;
+    margin: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+
 }
 
+div{
+    display: inline-block;
+    padding: 20px;   
+}
+
+.a{
+    text-align: right;
+    padding: 20px;
+    direction: rtl;
+    font-size: 15px; 
+}
 h1
 {
-    color:#1e212d;
+    color:#14274e;
     text-align: center;
-    
+     
 }
 
 img
 {
-    width:250px;
-    display: block;
-    margin: auto;
+    width: 165px;
+    border-radius: 50%;
+    margin: 20px;
 }
 
 p
 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 header p
@@ -39,20 +51,29 @@ ul
 
 main p:nth-child(odd)
 {
-    color: dimgrey;
+    color: #9ba4b4;
     background-color: #383e56;
     margin: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color:#cad7ee ;
+    padding: 15px;
 } 
 
 main p:nth-child(even)
 {
     color: #383e56;
-    background-color:dimgrey ;
+    background-color:#9ba4b4 ;
     margin: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color:  #383e56;
+    padding: 15px;
 }
 h2
 {
     color:#1e212d;
+    margin: 10px;
 }
 
 ol
